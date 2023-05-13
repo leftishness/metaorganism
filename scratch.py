@@ -39,16 +39,8 @@ class Module:
         self.weights -= self.lr * dw
         self.biases -= self.lr * db
 
-# In this example, we define two networks with N nodes each and initialize them with random values. We also define
-# parameters for the strength of interaction between the networks (alpha) and the damping factors for each network
-# (gamma1 and gamma2). We then define a function update_networks that updates each network according to a set of rules
-# that includes interactions with the other network and random fluctuations. This function returns the updated networks
-# as NumPy arrays. Finally, we run the dynamics of the networks for a fixed number of steps using a loop that calls the
-# update_networks function. After the loop, we print the final values of the two networks.
-
-
 # Next we code a machine learning model that uses these 'dissipative' networks as computational building blocks such
-# that, At higher levels of the hierarchy, the network could learn to recognize patterns in the input data by composing
+# that, at higher levels of the hierarchy, the network can learn to recognize patterns in the input data by composing
 # the lower-level modules and clusters into increasingly complex representations. The network could also be designed to
 # have multiple time scales of activity, such that slower dynamics at higher levels of the hierarchy could modulate the
 # faster dynamics at lower levels.
