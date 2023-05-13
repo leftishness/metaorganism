@@ -43,11 +43,10 @@ class Module:
 # that, at higher levels of the hierarchy, the network can learn to recognize patterns in the input data by composing
 # the lower-level modules and clusters into increasingly complex representations. The network could also be designed to
 # have multiple time scales of activity, such that slower dynamics at higher levels of the hierarchy could modulate the
-# faster dynamics at lower levels.
-
-# Additionally, the network could be designed to dynamically reconfigure itself in response to changes in the input data
-# distribution, such as by forming and dissolving clusters or by adjusting the strength of connections between modules.
-# This would allow the network to adapt to changes in the environment and maintain its non-equilibrium steady state.
+# faster dynamics at lower levels. Additionally, the network could be designed to dynamically reconfigure itself in response
+# to changes in the input data distribution, such as by forming and dissolving clusters or by adjusting the strength of 
+# connections between modules. This would allow the network to adapt to changes in the environment and maintain its 
+# non-equilibrium steady state.
 
 class Network:
     def __init__(self, n_inputs, n_outputs, n_modules, n_net1, n_net2):
