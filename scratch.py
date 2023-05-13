@@ -51,8 +51,6 @@ print("Final values of network 2: ", net2)
 # distribution, such as by forming and dissolving clusters or by adjusting the strength of connections between modules.
 # This would allow the network to adapt to changes in the environment and maintain its non-equilibrium steady state.
 
-import numpy as np
-
 
 class Network:
     def __init__(self, n_inputs, n_outputs, n_modules):
