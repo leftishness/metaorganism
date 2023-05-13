@@ -1,5 +1,6 @@
 import numpy as np
 
+# First, we define two simple networks that compete to achieve a non-equilibrium steady state
 # Define the parameters of the system
 N = 10  # number of nodes in each network
 alpha = 0.1  # strength of interaction between the two networks
