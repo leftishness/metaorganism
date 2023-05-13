@@ -29,16 +29,13 @@ def update_networks(net1, net2):
 for i in range(100):
     net1, net2 = update_networks(net1, net2)
 
-# Print the final values of the networks
-print("Final values of network 1: ", net1)
-print("Final values of network 2: ", net2)
 
 # In this example, we define two networks with N nodes each and initialize them with random values. We also define
 # parameters for the strength of interaction between the networks (alpha) and the damping factors for each network
 # (gamma1 and gamma2). We then define a function update_networks that updates each network according to a set of rules
 # that includes interactions with the other network and random fluctuations. This function returns the updated networks
 # as NumPy arrays. Finally, we run the dynamics of the networks for a fixed number of steps using a loop that calls the
-# update_networks function. After the loop, we print the final values of the two networks.
+# update_networks function.
 
 
 # Next we code a machine learning model that uses these 'dissipative' networks as computational building blocks such
